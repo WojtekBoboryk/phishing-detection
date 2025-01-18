@@ -57,7 +57,7 @@ The dataset used for training and evaluation, `Phishing_Email.csv`, is publicly 
 ## Usage
 1. Open the Django application in your browser at `http://127.0.0.1:8000`.
 2. Paste the email content and sender's information into the provided form.
-3. Click the **Scan** button to analyze the email.
+3. Click the **Analyze** button to analyze the email.
 4. If the email is flagged as phishing, the sender will be added to the database of potentially dangerous entities.
 
 ## Model Evaluation
