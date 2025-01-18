@@ -1,7 +1,7 @@
 # Phishing Detection System
 
 ## Overview
-This repository contains a phishing detection system powered by Artificial Intelligence. The project aims to identify potential phishing emails based on their content. By leveraging machine learning models, we provide an efficient solution to detect malicious emails and maintain a database of potentially dangerous senders.
+This repository contains a web application built with Django that uses a pre-trained machine learning model from Hugging Face to analyze email content and detect phishing attempts. The app stores phishing sender names in a database and allows users to search for them through a simple interface.
 
 ## Features
 1. **Model Comparison**: We evaluated the performance of three different machine learning models on the dataset `Phishing_Email.csv` from [Kaggle](https://www.kaggle.com/datasets/subhajournal/phishingemails/data). The evaluated models were:
@@ -27,7 +27,7 @@ The dataset used for training and evaluation, `Phishing_Email.csv`, is publicly 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/phishing-detection.git
+   git clone https://github.com/WojtekBoboryk/phishing-detection.git
    cd phishing-detection
    ```
 
