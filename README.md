@@ -42,7 +42,8 @@ The dataset used for training and evaluation, `Phishing_Email.csv`, is publicly 
    ```bash
    pip install -r requirements.txt
    ```
-
+    **Note for macOS users:** If you encounter issues with `pywin32`, remove the line `pywin32==308` from the `requirements.txt` file before running the above command.
+   
 4. Migrate the Django database:
    ```bash
    python manage.py makemigrations
