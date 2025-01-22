@@ -4,7 +4,7 @@
 This repository contains a web application built with Django that uses a pre-trained machine learning model from Hugging Face to analyze email content and detect phishing attempts. The app stores phishing sender names in a database and allows users to search for them through a simple interface.
 
 ## Features
-1. **Model Comparison**: We evaluated the performance of three different machine learning models on the dataset `Phishing_Email.csv` from [Kaggle](https://www.kaggle.com/datasets/subhajournal/phishingemails/data). The evaluated models were:
+1. **Model Comparsion**: We evaluated the performance of three different machine learning models on the dataset `Phishing_Email.csv` from [Kaggle](https://www.kaggle.com/datasets/subhajournal/phishingemails/data). The evaluated models were:
    - `ealvaradob/bert-finetuned-phishing`
    - `cybersectony/phishing-email-detection-distilbert_v2.4.1`
    - `imanoop7/bert-phishing-detector`
@@ -13,6 +13,8 @@ This repository contains a web application built with Django that uses a pre-tra
    - Recall
    - Accuracy
    - F1-score
+     
+   **Link to Google collab, where we compared models:** https://colab.research.google.com/drive/1wR6n8xbZc0h7zbbxkPKkoqFyIIc08ZRs?authuser=1 
 
    Based on these results, the most effective model was `cybersectony/phishing-email-detection-distilbert_v2.4.1`, which was selected for deployment.
 
